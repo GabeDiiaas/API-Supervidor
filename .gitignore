@@ -1,2 +1,2 @@
-node_modules/  # Ignora a pasta de dependências
-.env           # Ignora o arquivo .env
+node_modules/
+.env
