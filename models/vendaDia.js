@@ -19,8 +19,8 @@ const VendaDia = sequelize.define('TBMOVTO_VENDA_DIA', {
     allowNull: false
   }
 }, {
-  tableName: 'TBMOVTO_VENDA_DIA', 
-  timestamps: false 
+  tableName: 'TBMOVTO_VENDA_DIA',
+  timestamps: false
 });
 
 module.exports = VendaDia;

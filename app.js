@@ -1,4 +1,4 @@
-require('dotenv').config(); 
+require('dotenv').config();
 const express = require('express');
 const sequelize = require('./config/database');
 const vendasRoutes = require('./routes/vendas');

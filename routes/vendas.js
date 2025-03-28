@@ -2,7 +2,6 @@ const express = require('express');
 const router = express.Router();
 const VendaDia = require('../models/vendaDia');
 
-
 router.get('/vendas-dia', async (req, res) => {
   try {
     const vendas = await VendaDia.findAll({
